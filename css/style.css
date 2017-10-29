@@ -345,7 +345,9 @@ code {
 }
 #header {
   background: #fff;
-  position: relative;
+  width: 100%;
+  position: fixed;
+  z-index: 888;
 }
 #header a,
 #header a:visited {
@@ -358,6 +360,10 @@ code {
 }
 #header a:hover {
   color: #38b7ea;
+}
+#header-holder {
+  position: relative;
+  width: 100%;
 }
 .header-inner #logo,
 #main-nav,
@@ -779,7 +785,7 @@ code {
   z-index: 999;
   display: block;
   min-width: 280px;
-  position: absolute;
+  position: fixed;
 }
 #profile.card .profile-inner {
   position: relative;
