@@ -170,7 +170,7 @@ code {
   width: 40px;
   height: 40px;
   background-repeat: no-repeat;
-  background-image: url("images/logo.png");
+  background-image: url("images/logo.svg");
   -webkit-background-size: 40px 40px;
   -moz-background-size: 40px 40px;
   background-size: 40px 40px;
@@ -506,6 +506,7 @@ code {
 #sub-nav #profile-nav .avatar {
   width: 40px;
   height: 40px;
+  border-radius: 6px !important;
   margin-right: 8px;
 }
 #sub-nav #profile-nav .fa {
@@ -666,6 +667,7 @@ code {
   margin: 10px auto 20px;
   width: 128px;
   height: 128px;
+  border-radius: 6px !important;
 }
 #profile .inner .base-info #name,
 #profile .inner .base-info #title,
