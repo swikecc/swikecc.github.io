@@ -1088,7 +1088,7 @@ a.gitment-editor-footer-tip:hover {
 
 .gitment-markdown pre code {
   display: inline;
-  max-width: auto;
+  max-width: inherit;
   padding: 0;
   margin: 0;
   overflow: visible;

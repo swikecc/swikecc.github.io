@@ -4,11 +4,11 @@
 
 # Site
 title: EarthWalker
-subtitle: 
-description:
+subtitle: 积学以储宝，酌理以富才，研阅以穷照，驯致以绎辞。
+description: 积学以储宝，酌理以富才，研阅以穷照，驯致以绎辞。
 author: Swike Shi
 language: zh-CN
-timezone: Asia/Tianjin
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -75,7 +75,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

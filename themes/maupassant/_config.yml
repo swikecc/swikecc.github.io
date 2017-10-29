@@ -45,14 +45,14 @@ menu:
     directory: archives/
     icon: fa-archive
   - page: album
-    directory:
+    directory: album/
     icon: fa-picture-o
   - page: about
     directory: about/
     icon: fa-user
-#  - page: rss
-#    directory: atom.xml
-#    icon: fa-rss
+  - page: rss
+    directory: atom.xml
+    icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
@@ -63,8 +63,8 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
+  - title: Zhongwei Li
+    url: http://zhongweili.github.io/
   - title: site-name2
     url: http://www.example2.com/
   - title: site-name3
