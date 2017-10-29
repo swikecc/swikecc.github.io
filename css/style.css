@@ -347,7 +347,7 @@ code {
   background: #fff;
   width: 100%;
   position: fixed;
-  z-index: 99;
+  z-index: 88;
 }
 #header a,
 #header a:visited {
@@ -782,7 +782,7 @@ code {
 #profile.card {
   top: 50px;
   right: 20px;
-  z-index: 999;
+  z-index: 99;
   display: block;
   min-width: 280px;
   position: fixed;
