@@ -5,9 +5,6 @@
         $('#header-holder').height($('#header').height());
         $('#profile').removeClass('card');
     });
-    $(document).scroll(function () {
-        $('#header-holder').height($('#header').height());
-    });
 
     var toTop = ($('#sidebar').height() - $(window).height()) + 60;
     // Caption
