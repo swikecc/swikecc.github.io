@@ -1,10 +1,12 @@
-$('#header-holder').height($('#header').height());
-$(window).resize(function() {
-    $('#header-holder').height($('#header').height());
-    $('#profile').removeClass('card');
-});
-
 (function($){
+    $(window).resize(function() {
+        $('#profile').removeClass('card');
+    });
+    $(document).scroll(function () {
+        $('#header-holder').height($('#header').height());
+        $('header').css('position', 'fixed');
+    });
+
     var toTop = ($('#sidebar').height() - $(window).height()) + 60;
     // Caption
     $('.article-entry').each(function(i) {

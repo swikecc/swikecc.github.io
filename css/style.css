@@ -346,7 +346,7 @@ code {
 #header {
   background: #fff;
   width: 100%;
-  position: fixed;
+  position: relative;
   z-index: 88;
 }
 #header a,
