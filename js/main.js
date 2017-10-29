@@ -4,7 +4,7 @@
     });
     $(document).scroll(function () {
         $('#header-holder').height($('#header').height());
-        $('header').css('position', 'fixed');
+        $('#header').css('position', 'fixed');
     });
 
     var toTop = ($('#sidebar').height() - $(window).height()) + 60;
