@@ -1,5 +1,7 @@
 (function($){
     $(window).resize(function() {
+        $('#header-holder').height($('#header').height());
+        $('#header').css('position', 'fixed');
         $('#profile').removeClass('card');
     });
     $(document).scroll(function () {
