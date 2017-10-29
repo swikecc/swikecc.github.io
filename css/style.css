@@ -1976,6 +1976,7 @@ ol.toc {
 .ins-search-mask,
 .ins-search-container {
   position: fixed;
+  z-index: 899;
 }
 .ins-search-mask {
   top: 0;
