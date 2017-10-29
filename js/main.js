@@ -1,12 +1,12 @@
 (function($){
+    $('#header').css('position', 'fixed');
+    $('#header-holder').height($('#header').height());
     $(window).resize(function() {
         $('#header-holder').height($('#header').height());
-        $('#header').css('position', 'fixed');
         $('#profile').removeClass('card');
     });
     $(document).scroll(function () {
         $('#header-holder').height($('#header').height());
-        $('#header').css('position', 'fixed');
     });
 
     var toTop = ($('#sidebar').height() - $(window).height()) + 60;
